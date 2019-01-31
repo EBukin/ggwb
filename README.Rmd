@@ -1,0 +1,28 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# ggwb
+
+The goal of ggwb is to simplify peopls life in building plots using corporate colouring scheme accepted at the World Bank.
+
+## Installation
+
+The pakage is on the github only. You acn install it in the following way:
+
+```{r eval=FALSE}
+devtools::install_github("EBukin/ggwb.git")
+library("ggwb")
+```
+
+## Example
