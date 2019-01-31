@@ -34,7 +34,7 @@ wb_col <- function(...) {
 wb_pal <- function(palette = "main", reverse = FALSE, ...) {
 
   wb_palettes <- list(
-    `main`  = wb_col("red", "orange", "yellow", "green", "blue")
+    `main`  = wb_col("red", "yellow", "green", "blue", "purple")
   )
 
   pal <- wb_palettes[[palette]]
